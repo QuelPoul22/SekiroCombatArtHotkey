@@ -1,0 +1,21 @@
+# Visual Studio 编译产物
+out/
+x64/
+Debug/
+Release/
+*.obj
+*.pch
+*.ilk
+*.pdb
+*.exp
+*.lib
+
+# 忽略 release 里的二进制，只保留 ini 配置
+release/*.dll
+
+# OS 垃圾
+Thumbs.db
+.DS_Store
+
+# 不忽略配置文件
+!release/configs/
